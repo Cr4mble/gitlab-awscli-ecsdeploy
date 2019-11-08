@@ -8,6 +8,7 @@ RUN apk add --no-cache \
     py-pip \
     groff \
     less \
+    docker \
     && pip install --upgrade pip \
     && pip install awscli \
     && pip install ecs-deploy
