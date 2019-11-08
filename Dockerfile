@@ -10,6 +10,7 @@ RUN apk add --no-cache \
     less \
     docker \
     curl \
+    bash \
     && pip install --upgrade pip \
     && pip install awscli
 
