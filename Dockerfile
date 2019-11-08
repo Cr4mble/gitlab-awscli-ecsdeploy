@@ -13,5 +13,5 @@ RUN apk add --no-cache \
     && pip install --upgrade pip \
     && pip install awscli
 
-RUN curl https://raw.githubusercontent.com/silinternational/ecs-deploy/master/ecs-deploy | sudo tee /usr/bin/ecs-deploy
-RUN sudo chmod +x /usr/bin/ecs-deploy
+RUN curl https://raw.githubusercontent.com/silinternational/ecs-deploy/master/ecs-deploy | tee /usr/bin/ecs-deploy
+RUN chmod +x /usr/bin/ecs-deploy
