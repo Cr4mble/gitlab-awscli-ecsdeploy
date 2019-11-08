@@ -11,6 +11,7 @@ RUN apk add --no-cache \
     docker \
     curl \
     bash \
+    jq \
     && pip install --upgrade pip \
     && pip install awscli
 
